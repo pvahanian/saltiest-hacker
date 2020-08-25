@@ -1,0 +1,89 @@
+*{
+    border:1px solid black;
+}
+
+.about-section {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.about-section h2 {
+	color: #EA794D;
+	font-size: 3rem;
+	font-family: var(--main-font);
+	margin-bottom: 2%;
+}
+
+.about-section p {
+	font-family: var(--sub-font);
+	color: #BFC0C0;
+	font-size: 2rem;
+	line-height: 1.8;
+}
+
+.image-placeholder {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 3% auto;
+	background: #055C9D;
+}
+
+.about-profiles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 4%;
+}
+
+.about-person {
+	border-radius: 5px;
+    flex-basis: 45%;
+    margin-bottom: 5%;
+	padding: 2% 4%;
+	background:#055C9D;
+}
+
+.about-person span {
+	color:white;
+}
+
+.about-person h4 {
+	font-size: 1.8rem;
+	font-family: var(--main-font);
+	color:black;
+	margin-bottom: 1%;
+}
+
+.team-role {
+	color: #68BBE3;
+    font-size: 1.3rem;
+	font-family: var(--sub-font);
+	margin-bottom: 2%;
+}
+
+.about-person p {
+	color: var(--light-gray);
+	font-size: 1.6rem;
+}
+
+.about-social i {
+	font-size: 2.2rem;
+}
+
+.about-social i:hover {
+	cursor: pointer;
+	color: var(--coral-orange)
+}
+
+.fa-github-alt {
+	color: #000;
+}
+
+.fa-twitter {
+	color: #4ca5dd;
+}
+
+.about-social i:first-child {
+	margin-right: 5%;
+}
