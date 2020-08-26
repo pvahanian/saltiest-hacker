@@ -1,31 +1,29 @@
-*{
-    border:1px solid black;
-}
-
 .about{
     color: #dbdbdb;
 
 }
+.aboutcontainer{
+	padding-top:2%;
+	width:80vw;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	text-align: center;
+	}
+	
+.about-person {
+	width:30%;
+	border-radius: 30px;
+	margin-bottom: 5%;
+	padding: 2% 4%;
+	background:#055C9D;
+}
+
 .about-section {
 	text-align: center;
 	padding-top: 5%;
 }
-
-.about-section h2 {
-	color: #EA794D;
-	font-size: 3rem;
-	font-family: var(--main-font);
-	margin-bottom: 2%;
-}
-
-.about-section p {
-	font-family: var(--sub-font);
-	color: #BFC0C0;
-	font-size: 2rem;
-	line-height: 1.8;
-}
-
-.image-placeholder {
+.images {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -33,63 +31,34 @@
 	background: #055C9D;
 }
 
-.about-profiles {
+.profiles{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin-top: 4%;
-}
-
-.about-person {
-	border-radius: 5px;
-    flex-basis: 45%;
-    margin-bottom: 5%;
-	padding: 2% 4%;
-	background:#055C9D;
 }
 
 .about-person span {
 	color:white;
 }
-
 .about-person h4 {
-	font-size: 1.8rem;
-	font-family: var(--main-font);
+	font-size: 1.9rem;
 	color:black;
 	margin-bottom: 1%;
 }
 
 .team-role {
-	color: #68BBE3;
-    font-size: 1.3rem;
-	font-family: var(--sub-font);
+	color: #9ddaf8;
+    font-size: 1.4rem;
 	margin-bottom: 2%;
 }
 
 .about-person p {
-	color: var(--light-gray);
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 }
 
 .about-social i {
 	font-size: 2.2rem;
-}
-
-.about-social i:hover {
-	cursor: pointer;
-	color: var(--coral-orange)
-}
-
-.fa-github-alt {
-	color: #000;
-}
-
-.fa-twitter {
-	color: #4ca5dd;
-}
-
-.about-social i:first-child {
-	margin-right: 5%;
 }
 
 footer{
@@ -102,3 +71,57 @@ footer{
     border-radius: 4px;
     width: 80vw;
 }
+
+/* 800px adjustments area */
+@media(max-width: 800px) {
+    h2{
+        font-size: 1.3rem;
+    }
+
+    li, a{
+        font-weight: 500;
+        font-size: .9rem;
+     }
+    }
+    h1{
+        font-size: 2.3rem;
+	}
+	
+	.about-person h4 {
+		font-size: 1.6rem;
+	}
+	.team-role{
+		font-size: 1.2rem;
+	}
+	.about-person p{
+		font-size: 1rem;
+
+	}
+
+
+
+@media(max-width: 600px) {
+        h2{
+            font-size: 1.2rem;
+        }
+    
+        li, a{
+            font-weight: 500;
+            font-size: .9rem;
+		 }
+		
+		h1{
+			font-size: 2rem;
+		}
+		
+		.about-person h4 {
+			font-size: 1.4rem;
+		}
+		.team-role{
+			font-size: 1rem;
+		}
+		.about-person p{
+			font-size: .9rem;
+	
+		}
+	
