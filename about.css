@@ -9,14 +9,16 @@
     align-items: center;
 	justify-content: center;
 	text-align: center;
+	
 	}
 	
 .about-person {
-	width:30%;
+	width:27%;
 	border-radius: 30px;
 	margin-bottom: 5%;
 	padding: 2% 4%;
 	background:#055C9D;
+	border:1.5px white solid;
 }
 
 .about-section {
@@ -29,13 +31,27 @@
 	border-radius: 50%;
 	margin: 3% auto;
 	background: #055C9D;
+	border:1.5px white solid;
 }
+
+.images:hover{
+	transform: scale(1.35);
+	transition: .75s;
+
+}
+.aboutus{
+	font-size:1.8rem
+}	
+h3{
+	font-size: 1.4rem;
+ }
 
 .profiles{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin-top: 4%;
+	
 }
 
 .about-person span {
@@ -95,20 +111,23 @@ footer{
 	}
 	.about-person p{
 		font-size: 1rem;
-
+	}
+	.aboutus{
+		font-size:1.6rem;
+	}
+	h3{
+		font-size:1.4rem;
 	}
 
 
 
-@media(max-width: 600px) {
-        h2{
-            font-size: 1.2rem;
-        }
+@media(max-width: 650px) {
+        
     
         li, a{
             font-weight: 500;
             font-size: .9rem;
-		 }
+		}
 		
 		h1{
 			font-size: 2rem;
@@ -122,6 +141,50 @@ footer{
 		}
 		.about-person p{
 			font-size: .9rem;
-	
 		}
+		.about-person {
+			width:45%;
+		}
+		h2 .aboutus{
+			font-size:1.8rem;
+			border:1px solid black;
+		}	
+		
+
+
+
+
+		
+@media(max-width: 500px) {
+	h2{
+		font-size: 1.2rem;
+	}
+
+	li, a{
+		font-weight: 500;
+		font-size: .9rem;
+	 }
 	
+	h1{
+		font-size: 2rem;
+	}
+	
+	.about-person h4 {
+		font-size: 1.4rem;
+	}
+	.team-role{
+		font-size: 1rem;
+	}
+	.about-person p{
+		font-size: .9rem;
+	}
+
+	.about-person {
+	width:45%;
+}
+
+.images:hover{
+	transform: scale(1.2);
+	transition: .75s;
+
+}
