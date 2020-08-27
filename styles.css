@@ -178,8 +178,6 @@ h1{
 }
 
  .neg{
-    display:flex;
-    word-wrap: normal;
     color:red;
 }
 
